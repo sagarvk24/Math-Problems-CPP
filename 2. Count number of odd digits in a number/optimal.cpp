@@ -3,8 +3,6 @@ using namespace std;
 
 int countOddDigits(int &num)
 {
-    if (num == 0)
-        return 1;
     int oddCount = 0;
 
     while (num > 0)
